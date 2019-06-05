@@ -1,24 +1,37 @@
-# README
+# Notebook-API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+RESTFULL API DESENVOLVIDA COM RAILS
 
-Things you may want to cover:
+## Dependências
 
-* Ruby version
+>Rails => 5.0.1
+> Ruby => 2.4.0
 
-* System dependencies
+## Criando Ambiente de Desenvolvimento
+> rails db:migrate
+> rails dev:setup
 
-* Configuration
+rails dev:setup devera ter uma saia como esta:
+>Criando Usuarios...
+Criando Usuarios...[OK]
+Criando Telefones...
+Criando Telefones...[OK]
+Criando Endereços...
+Criando Telefones...[OK]
 
-* Database creation
+## Rotas
+É possível conseguir todas as rotas da aplicação usando o seguinte endereço:
+> http://localhost:3000/rails/info/routes
 
-* Database initialization
+Onde o localhost:3000 sera substituído pelo IP e Porta onde a aplicação estar rodando. 
 
-* How to run the test suite
+## Segurança
+os arquivo de configuração de segurança esta em:
+> config/initializers/rack_attack.rb
 
-* Services (job queues, cache servers, search engines, etc.)
+## Header
 
-* Deployment instructions
+Todas as requisições necessitam de cabeçalhos para funcionarem.
 
-* ...
+> GET => Accept = "application/vnd.api+json"
+> POST => Accept = "application/vnd.api+json" e Media-Type = "application/vnd.api+json"
