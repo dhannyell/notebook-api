@@ -4,7 +4,7 @@ RESTFULL API DESENVOLVIDA COM RAILS
 
 ## Dependências
 
->Rails => 5.0.1
+> Rails => 5.0.1\
 > Ruby => 2.4.0
 
 ## Criando Ambiente de Desenvolvimento
@@ -12,12 +12,12 @@ RESTFULL API DESENVOLVIDA COM RAILS
 > rails dev:setup
 
 rails dev:setup devera ter uma saia como esta:
->Criando Usuarios...
-Criando Usuarios...[OK]
-Criando Telefones...
-Criando Telefones...[OK]
-Criando Endereços...
-Criando Telefones...[OK]
+>Criando Usuarios...\
+Criando Usuarios...[OK]\
+Criando Telefones...\
+Criando Telefones...[OK]\
+Criando Endereços...\
+Criando Telefones...[OK]\
 
 ## Rotas
 É possível conseguir todas as rotas da aplicação usando o seguinte endereço:
@@ -33,5 +33,5 @@ os arquivo de configuração de segurança esta em:
 
 Todas as requisições necessitam de cabeçalhos para funcionarem.
 
-> GET => Accept = "application/vnd.api+json"
-> POST => Accept = "application/vnd.api+json" e Media-Type = "application/vnd.api+json"
+> GET => Accept = "application/vnd.api+json"\
+> POST => Accept = "application/vnd.api+json" e Media-Type = "application/vnd.api+json"\
