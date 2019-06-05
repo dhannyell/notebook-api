@@ -29,5 +29,8 @@ module NotebookApi
 
     #Autoload /lib
     config.autoload_paths << Rails.root.join('lib')
+    
+    #Use Rack Attack to middleware
+    config.middleware.use Rack::Attack
   end
 end

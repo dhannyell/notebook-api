@@ -7,7 +7,7 @@ class AppName
   def call(env)
     puts ">>>>> #{env}"
     if env["ORIGINAL_FULLPATH"] == "/"
-      ['200', {'Content-Type' => 'text/html'}, ["Teste!"]]
+      ['200', {'Content-Type' => 'text/html'}, ["Teste!!"]]
     else
       status, headers, response = @app.call(env)
       headers.merge!({'X-App-Name' => "#{@app_name}"})
