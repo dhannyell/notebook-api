@@ -14,7 +14,7 @@ gem 'sqlite3'
 gem 'devise_token_auth'
 gem 'devise-i18n'
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 4.3'
 # ActiveModel::Serializer implementation and Rails hooks
 gem 'active_model_serializers', '~> 0.10.1'
 gem 'versionist'
